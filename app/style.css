@@ -5,13 +5,13 @@
   padding: 1rem;
   color: #253949;
   width: 100%;
+  min-width: fit-content;
   height: 100vh;
-
-  .home__header {
-    height: 2rem;
-  }
+  display: flex;
+  flex-direction: column;
 
   .main__content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,11 +25,5 @@
     .form__input--city {
       width: 300px;
     }
-  }
-
-  .categories-list {
-    display: flex;
-    justify-content: center;
-    align-content: center;
   }
 }
