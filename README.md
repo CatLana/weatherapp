@@ -1,5 +1,5 @@
 # Weather App
-This is my practice project while learning React. 
+This is my practice project just playing around while learning React. 
 
 # Tech stack 
 React.js
